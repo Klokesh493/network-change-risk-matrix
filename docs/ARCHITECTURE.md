@@ -4,11 +4,14 @@ Scores network changes by device count, region count, rollback maturity, and cus
 
 ```mermaid
 flowchart LR
-    N0["sample_changes.csv"]
-    N1["change_risk.py"]
-    N2["score / classify"]
-    N3["Result for operator review"]
-    N0 --> N1 --> N2 --> N3
+    A["Network change CSV"]
+    B["Score devices, regions, rollback test, and customer tier"]
+    C["Compare score to 10 and 20"]
+    D["Medium or high risk"]
+    E["Low risk below 10"]
+    A --> B --> C
+    C --> D
+    C --> E
 ```
 
 ## Operational boundaries
