@@ -2,7 +2,7 @@
 
 ## Business problem
 
-Scores network changes by device count, region count, rollback maturity, and customer tier.
+A network change that touches multiple regions or lacks tested rollback needs more scrutiny than a small, reversible change.
 
 ## Reproduce the workflow
 
