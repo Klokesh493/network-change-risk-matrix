@@ -2,6 +2,8 @@
 
 A network change that touches multiple regions or lacks tested rollback needs more scrutiny than a small, reversible change.
 
+[Skills and verification](docs/ENGINEERING_NOTES.md)
+
 ## What I built
 
 I built a change-risk classifier that scores device count, regional scope, missing rollback tests, and enterprise-customer exposure. Scores map to low, medium, or high risk.
